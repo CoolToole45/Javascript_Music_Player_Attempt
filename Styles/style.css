@@ -1,0 +1,39 @@
+.mainContainer {
+    background-image: linear-gradient(to bottom, red, yellow );
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer h1 {
+    font-size: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5vh;
+}
+
+.imgContainer img {
+    border: 5px solid cornflowerblue;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    height: 12vh;
+    margin-top: 5vh;
+}
+
+.playerControl {
+    width: 5vw;
+    border: 2px solid greenyellow;
+    background-color: rgb(80, 182, 80);
+}
+
+.playerControl:hover,
+.playerControl:active,
+.playerControl::after {
+    border: 2px dotted rgb(80, 182, 80);
+    background-color: greenyellow;
+    color: aqua;
+}

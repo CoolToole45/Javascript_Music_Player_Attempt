@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_MUSIC_PLAYER_ATTEMPT</title>
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <section class="mainContainer">
+        <h1>JS Music Player</h1>
+        <div class="musicContainer">
+            <div class="musicInfo" id="musicContainer">
+                <h4 id="title"></h4>
+                <div class="progressContainer" id="progressContainer">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <audio src="Music/dubstep.mp3" id="audio"></audio>
+            <div class="imgContainer">
+                <img src="img/dubstep.jpg" alt="thumbnail" id="coverImg">
+            </div>
+            <div class="navigation">
+                <button id="prev" class="playerControl">
+                    <i class="fa fa-backward fa-2x"></i>
+                </button>
+                <button id="play" class="playerControl">
+                    <i class="fa fa-play fa-2x"></i>
+                </button>
+                <button id="next" class="playerControl">
+                    <i class="fa fa-forward fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://use.fontawesome.com/53504c6d43.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
